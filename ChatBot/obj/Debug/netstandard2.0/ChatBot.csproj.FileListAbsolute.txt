@@ -1,0 +1,9 @@
+D:\DesafioCarrefour\ChatBot\bin\Debug\netstandard2.0\ChatBot.deps.json
+D:\DesafioCarrefour\ChatBot\bin\Debug\netstandard2.0\ChatBot.dll
+D:\DesafioCarrefour\ChatBot\obj\Debug\netstandard2.0\ChatBot.AssemblyInfoInputs.cache
+D:\DesafioCarrefour\ChatBot\obj\Debug\netstandard2.0\ChatBot.AssemblyInfo.cs
+D:\DesafioCarrefour\ChatBot\bin\Debug\netstandard2.0\ChatBot.pdb
+D:\DesafioCarrefour\ChatBot\obj\Debug\netstandard2.0\ChatBot.csproj.CoreCompileInputs.cache
+D:\DesafioCarrefour\ChatBot\obj\Debug\netstandard2.0\ChatBot.dll
+D:\DesafioCarrefour\ChatBot\obj\Debug\netstandard2.0\ChatBot.pdb
+D:\DesafioCarrefour\ChatBot\obj\Debug\netstandard2.0\ChatBot.csprojAssemblyReference.cache

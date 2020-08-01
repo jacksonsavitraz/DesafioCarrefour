@@ -1,0 +1,445 @@
+﻿{
+  "ChoosePhrase": "Você escolheu",
+  "RestartPhrase": "Recomeçar",
+  "ContinuePhrase": "Falar sobre",
+  "Greetings": [
+    "Oi, {{FirstName}}. Muito bom te ver aqui!",
+    "Eu sou o assistente virtual 😀 do <b>Banco Carrefour</b> e estou aqui para tirar suas dúvidas."
+  ],
+  "Unknow": [
+    "Desculpa, mas eu não entendi... 😕",
+    "Pode tentar escrever de outra forma?"
+  ],
+  "Start": {
+    "Id": "start",
+    "Label": "Início",
+    "Goto": "",
+    "Phrases": [
+      "Sobre qual assunto gostaria de conversar?"
+    ],
+    "Dialogs": [
+      {
+        "Id": "cartao",
+        "Label": "Cartão Carrefour",
+        "Goto": "",
+        "Phrases": [
+          "Antes de começar, me responde uma coisa:",
+          "Você <b>já possui</b> o nosso cartão de crédito?"
+        ],
+        "Dialogs": [
+          {
+            "Id": "cartao-sim",
+            "Label": "Sim",
+            "Goto": "",
+            "Phrases": [
+              "Bom ter <b>você</b> conosco! 😍",
+              "Em que posso lhe ajudar?"
+            ],
+            "Dialogs": [
+              {
+                "Id": "faturas",
+                "Label": "Faturas",
+                "Goto": "",
+                "Phrases": [
+                  "Controle suas compras de onde e como quiser. ",
+                  "Seu Cartão Carrefour conectado com você!",
+                  "Gostaria de saber mais?"
+                ],
+                "Dialogs": [
+                  {
+                    "Id": "fatura-digital",
+                    "Label": "Fatura Digital",
+                    "Goto": "faturas",
+                    "Phrases": [
+                      "Caso você opte por receber sua fatura digital, você poderá recebê-la por e-mail, acessar pelo aplicativo, acessar pelo site ou nos nossos terminais de autosserviços.",
+                      "Ao optar por receber a sua fatura por e-mail, enviaremos dois avisos gratuitos via SMS todos os meses para você não perder a data de pagamento.",
+                      "Além de contribuir com a natureza, não utilizando a impressão da fatura, você terá a praticidade de acessar em qualquer lugar, a qualquer momento!",
+                      "O que mais gostaria de saber sobre sua fatura?"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "fechamento",
+                    "Label": "Fechamento",
+                    "Goto": "faturas",
+                    "Phrases": [
+                      "Fique tranquilo, avisaremos a data de fechamento da sua fatura!",
+                      "Assim, você pode se programar e ter mais prazo para pagar suas compras.",
+                      "Vamos continuar nossa conversa?"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "cadastro",
+                    "Label": "Cadastro",
+                    "Goto": "faturas",
+                    "Phrases": [
+                      "⚠Importante: mantenha seu cadastro atualizado para que você receba sua fatura em dia!",
+                      "É muito fácil, no Site você encontrará o passo a passo.",
+                      "Ainda tem dúvidas sobre sua fatura?"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "pagamento",
+                    "Label": "Pagamento",
+                    "Goto": "faturas",
+                    "Phrases": [
+                      "Você pode utilizar um dos nossos canais para acessar sua fatura e realizar o pagamento em qualquer Banco:",
+                      "<b>Aplicativo Cartão Carrefour</b>",
+                      "<b>Site Carrefour</b>",
+                      "<b>Terminais de Autosserviço nas lojas Carrefour</b>"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "faturas-voltar",
+                    "Label": "Voltar",
+                    "Goto": "cartao-sim",
+                    "Phrases": [
+                      "Em que posso lhe ajudar? 👇"
+                    ],
+                    "Dialogs": []
+                  }
+                ]
+              },
+              {
+                "Id": "servicos",
+                "Label": "Serviços",
+                "Goto": "",
+                "Phrases": [
+                  "Você organizará sua vida e suas finanças com o <b>Cartão de Crédito Carrefour</b>.",
+                  "Saiba mais escolhendo um dos nossos serviços:"
+                ],
+                "Dialogs": [
+                  {
+                    "Id": "parcelamento",
+                    "Label": "Parcele",
+                    "Goto": "servicos",
+                    "Phrases": [
+                      "Você pode parcelar a fatura do seu cartão de crédito em <b>até 24 vezes</b> com o Parcele Fácil!",
+                      "Quer saber mais?"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "emprestimo",
+                    "Label": "Crédito",
+                    "Goto": "servicos",
+                    "Phrases": [
+                      "Caso você precise solicitar um empréstimo pessoal, ele será depositado em sua conta em <b>até 72h</b>.",
+                      "Vamos falar de outro serviço?"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "dinheiro",
+                    "Label": "Saque",
+                    "Goto": "servicos",
+                    "Phrases": [
+                      "Você poderá fazer saques de dinheiro a <b>qualquer hora</b>!",
+                      "E ainda conta com um prazo maior para efetuar o pagamento do seu Saque Rápido.",
+                      "Saiba mais:"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "pagcontas",
+                    "Label": "Contas",
+                    "Goto": "servicos",
+                    "Phrases": [
+                      "Você poderá otimizar o pagamento de todas as suas contas efetuando todos os pagamentos em uma <b>única data</b>.",
+                      "Isso é possível com nosso serviço Pag Contas!",
+                      "Quer saber mais?"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "voltar-servicos",
+                    "Label": "Voltar",
+                    "Goto": "cartao-sim",
+                    "Phrases": [
+                      "Escolha um assunto: 👇"
+                    ],
+                    "Dialogs": []
+                  }
+                ]
+              },
+              {
+                "Id": "seguro-cartao",
+                "Label": "Seguro",
+                "Goto": "",
+                "Phrases": [
+                  "Seguros que só cliente <b>Cartão Carrefour</b> tem! ",
+                  "Você poderá contratar os serviços de seguro tanto para você e também para os seus bens!",
+                  "Qual tipo de seguro você procura?"
+                ],
+                "Dialogs": [
+                  {
+                    "Id": "voce",
+                    "Label": "Pessoal",
+                    "Goto": "seguro-cartao",
+                    "Phrases": [
+                      "Conheça os seguros exclusivos oferecidos pelo seu <b>Cartão Carrefour</b> e proteja o que é importante para você.",
+                      "Você poderá acessar o contrato pelo Site e adquirir o contrato do seguro pessoal."
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "bens",
+                    "Label": "Seguro de bens",
+                    "Goto": "seguro-cartao",
+                    "Phrases": [
+                      "Compare seguros das melhores seguradoras do mercado e contrate com até 5% de desconto com seu <b>Cartão Carrefour</b>.",
+                      "Entre no site e faça sua cotação!",
+                      "https://www.carrefourseguroseservicos.com.br/"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "voltar-seguros",
+                    "Label": "Voltar",
+                    "Goto": "cartao-sim",
+                    "Phrases": [
+                      "Sobre o que vamos conversar? 👇"
+                    ],
+                    "Dialogs": []
+                  }
+                ]
+              },
+              {
+                "Id": "cartao-sim-inicio",
+                "Label": "Início",
+                "Goto": "start",
+                "Phrases": [
+                  "Sobre qual assunto gostaria de conversar?"
+                ],
+                "Dialogs": []
+              }
+            ]
+          },
+          {
+            "Id": "cartao-nao",
+            "Label": "Ainda não",
+            "Goto": "",
+            "Phrases": [
+              "Fico feliz pelo interesse no Cartão Carrefour! 💳",
+              "Ele é aceito em todos os locais credenciados <b>Visa e Mastercard</b>, dentro ou fora do país.",
+              "Escolha uma opção para começarmos: 👇"
+            ],
+            "Dialogs": [
+              {
+                "Id": "beneficios",
+                "Label": "Benefícios",
+                "Goto": "",
+                "Phrases": [
+                  "Ok, vamos lá...",
+                  "Conheça cada um dos benefícios exclusivos de quem possui o Cartão Carrefour:"
+                ],
+                "Dialogs": [
+                  {
+                    "Id": "beneficios-descontos",
+                    "Label": "Descontos",
+                    "Goto": "beneficios",
+                    "Phrases": [
+                      "Produtos com descontos exclusivos nas Lojas Carrefour e no Site.",
+                      "Procure os produtos sinalizados com o selo de <b>primeira parcela paga</b> e aproveite esta condição!",
+                      "Aproveite para conhecer mais benefícios:"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "beneficios-parcelamento",
+                    "Label": "Parcelamento",
+                    "Goto": "beneficios",
+                    "Phrases": [
+                      "Consulte produtos 🏷 sinalizados nas Lojas Carrefour ou no Site e aproveite o parcelamento em até <b>24x sem juros</b>.",
+                      "Aproveite também o parcelamento em até <b>10x sem juros</b> nas Drogarias Carrefour.",
+                      "Aproveite para conhecer mais benefícios:"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "beneficios-prazo",
+                    "Label": "Prazo",
+                    "Goto": "beneficios",
+                    "Phrases": [
+                      "Além da vantagem de ter um prazo maior utilizando a melhor data de compra 🗓, você terá o benefício de prazo maior para pagar o combustível ⛽ nos Postos Carrefour.",
+                      "Aproveite para conhecer mais benefícios:"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "beneficios-voltar",
+                    "Label": "Voltar",
+                    "Goto": "cartao-nao",
+                    "Phrases": [
+                      "Escolha uma opção para saber mais: 👇"
+                    ],
+                    "Dialogs": []
+                  }
+                ]
+              },
+              {
+                "Id": "vantagens",
+                "Label": "Vantagens",
+                "Goto": "",
+                "Phrases": [
+                  "Quem tem o <b>Cartão Carrefour</b> possui muitas vantagens!",
+                  "Escolha uma que eu te explico:"
+                ],
+                "Dialogs": [
+                  {
+                    "Id": "vantagens-anuidade",
+                    "Label": "Anuidade",
+                    "Goto": "vantagens",
+                    "Phrases": [
+                      "Isenção da parcela da <b>anuidade</b> usando pelo menos uma vez por mês, em qualquer Carrefour.",
+                      "Consulte o regulamento no site:",
+                      "http://www.carrefoursolucoes.com.br/usouzerou",
+                      "Quer mais vantagens? Escolha uma:"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "vantagens-prazo",
+                    "Label": "Prazo",
+                    "Goto": "vantagens",
+                    "Phrases": [
+                      "Prazo maior para pagar, utilizando a <b>melhor data de compra</b> 🗓.",
+                      "Aproveite para conhecer outras vantagens:"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "vantagens-pagamento",
+                    "Label": "Pagamento",
+                    "Goto": "vantagens",
+                    "Phrases": [
+                      "O pagamento da fatura pode ser feito em qualquer Banco.",
+                      "E você tem até <b>14 opções</b> de data de vencimento para escolher.",
+                      "Ao pagar nos caixas da Loja Carrefour, o limite é liberado na hora ⏱!",
+                      "Aproveite para conhecer mais benefícios:"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "vantagens-cartoes-adicionais",
+                    "Label": "Cartões adicionais",
+                    "Goto": "vantagens",
+                    "Phrases": [
+                      "Você poderá ter até 04 cartões adicionais gratuitos, sem pagar anuidade.",
+                      "Controle todas as transações por SMS 📱, mediante contratação do serviço.",
+                      "Conheça mais vantagens como esta:"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "vantagens-credito",
+                    "Label": "Crédito",
+                    "Goto": "vantagens",
+                    "Phrases": [
+                      "Com o Cartão Carrefour você pode contratar o <b>Crédito Pessoal</b> em nossa Central de Relacionamento e ter dinheiro na sua conta em até 72 horas, consulte condições.",
+                      "Aproveite para conhecer mais vantagens:"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "vantagens-saque",
+                    "Label": "Saque",
+                    "Goto": "vantagens",
+                    "Phrases": [
+                      "O Cartão Carrefour possui o serviço disponível de saque rápido em todos os caixas automáticos da Rede 24Horas e Rede Cirrus/Plus.",
+                      "Aproveite para conhecer mais benefícios:"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "vantagens-voltar",
+                    "Label": "Voltar",
+                    "Goto": "cartao-nao",
+                    "Phrases": [
+                      "Escolha uma opção para saber mais: 👇"
+                    ],
+                    "Dialogs": []
+                  }
+                ]
+              },
+              {
+                "Id": "solicitar",
+                "Label": "Solicitar cartão",
+                "Goto": "",
+                "Phrases": [
+                  "Você está a um passo de adquirir o seu Cartão Carrefour! 😃",
+                  "Peça já pelo cadastro online no Site ou vá até a Loja Carrefour mais próxima.",
+                  "https://aquisicao.carrefoursolucoes.com.br"
+                ],
+                "Dialogs": [
+                  {
+                    "Id": "solicitar-voltar",
+                    "Label": "Saber mais",
+                    "Goto": "cartao-nao",
+                    "Phrases": [
+                      "Escolha um assunto: 👇"
+                    ],
+                    "Dialogs": []
+                  },
+                  {
+                    "Id": "solicitar-recomecar",
+                    "Label": "Recomeçar",
+                    "Goto": "start",
+                    "Phrases": [],
+                    "Dialogs": []
+                  }
+                ]
+              },
+              {
+                "Id": "cartao-nao-inicio",
+                "Label": "Início",
+                "Goto": "start",
+                "Phrases": [
+                  "Sobre qual assunto gostaria de conversar?"
+                ],
+                "Dialogs": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "seguro",
+        "Label": "Seguros",
+        "Goto": "start",
+        "Phrases": [
+          "Além do seguro do Cartão Carrefour, nós temos seguro para cuidado e proteção do que é importante para você!",
+          "Acesse nosso site e compare, customize e contrate:",
+          "https://www.carrefourseguroseservicos.com.br/",
+          "Gostaria de falar sobre outro assunto?"
+        ],
+        "Dialogs": []
+      },
+      {
+        "Id": "outros-assuntos",
+        "Label": "Outros assuntos",
+        "Goto": "",
+        "Phrases": [
+          "Para outros assuntos, entre em contato!",
+          "💻 Atendimento Eletrônico no Site: de segunda a sábado das 08h00 às 21h00.",
+          "📞 Telefone 3004 2222 (São Paulo e Regiões Metropolitanas)",
+          "Ou demais Localidades: 0800 718 2222"
+        ],
+        "Dialogs": [
+          {
+            "Id": "outros-recomecar",
+            "Label": "Recomeçar",
+            "Goto": "start",
+            "Phrases": [
+              "Sobre qual assunto gostaria de conversar?"
+            ],
+            "Dialogs": []
+          }
+        ]
+      }
+    ]
+  }
+}

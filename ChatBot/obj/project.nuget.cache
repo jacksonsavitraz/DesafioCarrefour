@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nogq24iUI53O+8Pf9lrRD01slnTmauGu/2eohAC/+O41+E0/34AAKLezO5C2hjOQyoGSzp5AQpvi/Un6YwW1zg==",
+  "success": true,
+  "projectFilePath": "D:\\DesafioCarrefour\\ChatBot\\ChatBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jacks\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

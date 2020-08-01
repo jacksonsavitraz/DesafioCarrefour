@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "ChatBot.Telegram": {
+      "commandName": "Project"
+    }
+  }
+}
