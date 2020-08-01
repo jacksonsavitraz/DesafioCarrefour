@@ -3,7 +3,7 @@
 ## Sobre
 
 **DesafioCarrefour** é uma solução técnica que otimiza a comunicação entre clientes e o Banco Carrefour através do desenvolvimento de uma plataforma para ChatBots.
-Saiba mais assistindo o vídeo clicando [neste link](https://www.youtube.com/watch?v=GaczpVTFXJQ&vgo_ee=jOGJSQddJ32blWBA%2FcBTnayPUFd7JHyq9acdSgULWaM%3D) do Youtube.
+Saiba mais assistindo o vídeo clicando [neste link](https://youtu.be/bHaZPrhPoo0) do Youtube.
 
 ## Requerimentos
 
